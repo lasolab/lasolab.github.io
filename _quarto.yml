@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - files/
+    - images/
+
+website:
+  title: "LASO Lab"
+  description: "Landscape, Accessibility, and Spatial Observation Lab — Environmental Studies, Western Washington University."
+  site-url: "https://lasolab.github.io"
+  favicon: images/logo/laso-icon-small-color.svg
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: true
+  announcement:
+    content: "**Now recruiting:** a funded M.A. student for Fall 2027 — Galápagos & Ecuador, or accessibility mapping. Get in touch by **January 10**. [Details →](join.qmd)"
+    type: light
+    icon: megaphone
+    dismissable: false
+    position: below-navbar
+  navbar:
+    logo: images/logo/laso-wordmark-color.svg
+    logo-alt: "LASO Lab — home"
+    title: false
+    background: light
+    left:
+      - text: Research
+        href: research.qmd
+      - text: People
+        href: people.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+    right:
+      - text: Join the lab
+        href: join.qmd
+  page-footer:
+    left: |
+      LASO Lab · Environmental Studies · Western Washington University · Bellingham, WA
+    right:
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=F9sDjg0AAAAJ&hl=en
+      - text: ORCID
+        href: https://orcid.org/0000-0001-6909-2634
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Francisco-Laso
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/franciscolaso/
+      - text: lasof@wwu.edu
+        href: mailto:lasof@wwu.edu
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: false
+    lang: en

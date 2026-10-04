@@ -1,0 +1,95 @@
+---
+title: "Publications"
+subtitle: "Lab members in bold. Full and current list on [Google Scholar](https://scholar.google.com/citations?user=F9sDjg0AAAAJ&hl=en)."
+description: "Publications from LASO Lab and Francisco Laso: remote sensing, land-cover change and participatory mapping in the Galápagos and Ecuador."
+---
+
+<!-- To add a paper: copy one "- " block below, paste it at the top of its section, and edit. -->
+
+## Journal articles
+
+::: {.pub-list}
+- [2026 · Agricultural Systems 231, 104506]{.pub-meta}\
+  [Trajectories of farming systems reshape land use/land cover dynamics in the agricultural zones of the Galapagos Islands]{.pub-title}\
+  [Benítez, F. L., Mena, C. F., **Laso, F. J.**, Zapata, M. B., Rivas-Torres, G., & Gobin, A.]{.pub-authors}\
+  <https://doi.org/10.1016/j.agsy.2025.104506>
+- [2022 · Landscape Ecology]{.pub-meta}\
+  [Navigating agricultural landscapes: responses of critically endangered giant tortoises to farmland vegetation and infrastructure]{.pub-title}\
+  [Pike, K., Blake, S., Gordon, I., Cabrera, F., Rivas-Torres, G., **Laso, F. J.**, & Schwarzkopf, L.]{.pub-authors}\
+  <https://doi.org/10.1007/s10980-022-01566-x>
+- [2020 · Remote Sensing 12(1), 65]{.pub-meta}\
+  [Land cover classification of complex agroecosystems in the non-protected highlands of the Galapagos Islands]{.pub-title}\
+  [**Laso, F. J.**, Benítez, F. L., Rivas-Torres, G., Sampedro, C., & Arce-Nazario, J.]{.pub-authors}\
+  <https://doi.org/10.3390/rs12010065>
+- [2020 · Drones 4(4), 62]{.pub-meta}\
+  [Drone-based participatory mapping: examining local agricultural knowledge in the Galapagos]{.pub-title}\
+  [Colloredo-Mansfeld, M., **Laso, F. J.**, & Arce-Nazario, J.]{.pub-authors}\
+  <https://doi.org/10.3390/drones4040062>
+- [2017 · Journal of Land Use Science]{.pub-meta}\
+  [Modeling road building, deforestation and carbon emissions due to deforestation in the Ecuadorian Amazon: the potential impact of oil frontier growth]{.pub-title}\
+  [Mena, C. F., **Laso, F. J.**, Martinez, P., & Sampedro, C.]{.pub-authors}\
+  <https://doi.org/10.1080/1747423X.2017.1404648>
+- [2017 · Fungal Biology 121(11), 939–955]{.pub-meta}\
+  [Out of Asia: biogeography of fungal populations reveals Asian origin of diversification of the *Laccaria amethystina* complex, and two new species of violet *Laccaria*]{.pub-title}\
+  [Vincenot, L., Popa, F., **Laso, F. J.**, Donges, K., Rexer, K.-H., Kost, G., … Selosse, M.-A.]{.pub-authors}\
+  <https://doi.org/10.1016/j.funbio.2017.08.001>
+- [2016 · Ecology]{.pub-meta}\
+  [Termites promote resistance of decomposition to spatiotemporal variability in rainfall]{.pub-title}\
+  [Veldhuis, M. P., **Laso, F. J.**, Olff, H., & Berg, M. P.]{.pub-authors}\
+  <https://doi.org/10.1002/ecy.1658>
+- [2009 · Consilience: The Journal of Sustainable Development, Issue 2]{.pub-meta}\
+  [Challenges to the conservation of river turtles (*Podocnemis* spp.) in the Peruvian Amazon]{.pub-title}\
+  [**Laso, F. J.**]{.pub-authors}
+:::
+
+## Book chapters
+
+::: {.pub-list}
+- [2024 · Reference Module in Earth Systems and Environmental Sciences, Elsevier]{.pub-meta}\
+  [Animals and land cover/land use change: a remote sensing—Galapagos Islands assessment]{.pub-title}\
+  [Walsh, S. J., **Laso, F. J.**, & Giefer, M.]{.pub-authors}\
+  <https://doi.org/10.1016/B978-0-443-13220-9.00004-4>
+- [2023 · Island Ecosystems: Social and Ecological Interactions in the Galapagos Islands, Springer Nature (pp. 225–243)]{.pub-meta}\
+  [Mapping narratives of agricultural land use practices in the Galapagos]{.pub-title}\
+  [**Laso, F. J.**, & Arce-Nazario, J.]{.pub-authors}
+- [2020 · Land Cover and Land Use Change on Islands, Springer Nature (pp. 137–166)]{.pub-meta}\
+  [Galapagos is a garden]{.pub-title}\
+  [**Laso, F. J.**]{.pub-authors}\
+  <https://doi.org/10.1007/978-3-030-43973-6_6>
+- [2020 · Land Cover and Land Use Change on Islands, Springer Nature (pp. 167–182)]{.pub-meta}\
+  [Evaluating land cover change on the island of Santa Cruz, Galapagos Archipelago of Ecuador through cloud-gap filling and multi-sensor analysis]{.pub-title}\
+  [Shao, Y., Wan, H., Rosenman, A., **Laso, F. J.**, & Kennedy, L. M.]{.pub-authors}\
+  <https://doi.org/10.1007/978-3-030-43973-6_7>
+- [2020 · Land Cover and Land Use Change on Islands, Springer Nature (pp. 63–88)]{.pub-meta}\
+  [Social-ecological drivers of land cover/land use change on islands: a synthesis of the patterns and processes of change]{.pub-title}\
+  [Walsh, S. J., Brewington, L., **Laso, F. J.**, Shao, Y., Bilsborrow, R. E., Arce-Nazario, J., … Pizzitutti, F.]{.pub-authors}\
+  <https://doi.org/10.1007/978-3-030-43973-6_3>
+:::
+
+## Edited volumes
+
+::: {.pub-list}
+- [Expected 2027 · Springer Nature, *Social and Ecological Interactions in the Galápagos Islands* series · under contract]{.pub-meta}\
+  [Human–Wildlife Conflicts in the Galápagos Islands]{.pub-title}\
+  [**Laso, F. J.**, & Giefer, M. (Eds.)]{.pub-authors}
+:::
+
+## Educational materials
+
+::: {.pub-list}
+- [2024 · Fundación Educación para Comunidades Sostenibles]{.pub-meta}\
+  [Compendio de contenidos esenciales sobre alimentación, nutrición y soberanía alimentaria (contextualización curricular con enfoque de sostenibilidad para Galápagos)]{.pub-title}\
+  [Klingman, A., & **Laso, F. J.**]{.pub-authors}
+- [2022 · Backward by Design Mini-Studies, WWU]{.pub-meta}\
+  [Combining backward design with narrative tools can structure complex subjects into engaging courses]{.pub-title}\
+  [**Laso, F. J.**]{.pub-authors}\
+  <https://cedar.wwu.edu/wis_backwardsbydesign/31>
+:::
+
+## Dissertation
+
+::: {.pub-list}
+- [2021 · Ph.D. dissertation, University of North Carolina at Chapel Hill]{.pub-meta}\
+  [Agriculture, wildlife, and conservation in the Galapagos Islands]{.pub-title}\
+  [**Laso, F. J.**]{.pub-authors}
+:::

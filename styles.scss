@@ -1,0 +1,148 @@
+/*-- scss:defaults --*/
+// LASO Lab theme — colours from the logo; fonts: Montserrat (headings, as in the logo) + Source Sans 3 (body)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+$olive:      #5E5A3C;
+$olive-dark: #4B4830;
+$grey:       #6F6C64;
+$ink:        #23241C;
+$muted:      #4A493F;
+$ground:     #F8F7F2;
+$line:       #DEDCD2;
+$band-dark:  #2C2E22;
+
+$primary: $olive;
+$body-bg: $ground;
+$body-color: $ink;
+$link-color: $olive-dark;
+$link-hover-color: $ink;
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Montserrat", "Source Sans 3", sans-serif;
+$headings-font-weight: 600;
+$font-size-root: 18px;
+$line-height-base: 1.6;
+$navbar-bg: #FFFFFF;
+$navbar-fg: $ink;
+$navbar-hl: $olive;
+$footer-bg: #FFFFFF;
+$footer-fg: $muted;
+$border-radius: 8px;
+
+/*-- scss:rules --*/
+
+// ---------- global ----------
+body { -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, .title { color: $ink; letter-spacing: -0.01em; }
+a { text-underline-offset: 3px; }
+a:focus-visible, .btn:focus-visible { outline: 3px solid $olive; outline-offset: 3px; border-radius: 4px; }
+img { max-width: 100%; height: auto; }
+
+#quarto-header .navbar { border-bottom: 1px solid $line; padding-top: .55rem; padding-bottom: .55rem; }
+#quarto-header .navbar-brand img { max-height: 40px; height: 40px; }
+#quarto-header .navbar-nav .nav-link { font-weight: 600; font-size: 1rem; }
+#quarto-header .navbar-nav.ms-auto .nav-link {
+  background: $olive; color: #fff !important; border-radius: 6px; padding: .55rem 1.1rem; margin-left: .5rem;
+  &:hover { background: $olive-dark; }
+}
+.quarto-announcement { background: #ECEAE0 !important; color: $ink !important; border-bottom: 1px solid $line;
+  a { color: $olive-dark; font-weight: 700; } }
+
+.nav-footer { border-top: 1px solid $line; font-size: .9rem; }
+.nav-footer a { font-weight: 600; }
+
+// page titles on inner pages
+#title-block-header .title { font-size: clamp(2rem, 3.6vw, 2.8rem); }
+#title-block-header .subtitle { color: $muted; font-family: "Source Sans 3", sans-serif; font-weight: 400; font-size: 1.25rem; }
+main.content { padding-top: .5rem; }
+
+// ---------- building blocks ----------
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: 28px; padding-right: 28px; }
+.sec { padding-top: 80px; padding-bottom: 80px; }
+.band { background: #fff; border-top: 1px solid $line; border-bottom: 1px solid $line; }
+.eyebrow { font-family: "Montserrat", sans-serif; font-size: .78rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: $grey; margin: 0 0 .9rem; }
+.lead-text { font-size: 1.15rem; color: $muted; max-width: 36em; }
+.muted { color: $muted; }
+
+.btn-olive, .btn-ghost {
+  display: inline-flex; align-items: center; gap: .5rem; min-height: 48px; padding: .7rem 1.25rem;
+  border-radius: 6px; font-weight: 700; text-decoration: none; line-height: 1.2;
+}
+.btn-olive { background: $olive; color: #fff !important; &:hover { background: $olive-dark; } }
+.btn-ghost { border: 2px solid $ink; color: $ink !important; &:hover { background: $ink; color: #fff !important; } }
+.btn-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
+
+// ---------- home: hero ----------
+.hero { display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 72px 0 88px; }
+.hero-text { flex: 1 1 420px; min-width: 0; }
+.hero-text h1 { font-size: clamp(2.1rem, 4.2vw, 3.1rem); line-height: 1.12; margin: 0 0 1.25rem; }
+.hero-tiles { flex: 1.15 1 500px; min-width: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.tile { position: relative; height: 440px; border-radius: 10px; overflow: hidden; margin: 0; background: $band-dark; }
+.tile img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tile:nth-child(2) { margin-top: 36px; margin-bottom: -36px; }
+.tile .chip { position: absolute; left: 10px; bottom: 10px; background: #fff; color: $ink; font-family: "Montserrat", sans-serif;
+  font-weight: 600; font-size: .75rem; padding: 5px 10px; border-radius: 5px; }
+@media (max-width: 640px) {
+  .tile { height: 240px; }
+  .tile:nth-child(2) { margin: 0; }
+}
+
+// ---------- home: themes ----------
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 36px; margin-top: 2.5rem; }
+.theme { border-top: 3px solid $olive; padding-top: 1.25rem; }
+.theme .letter { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 2.6rem; line-height: 1; color: $olive; margin: 0 0 .4rem; }
+.theme h3 { font-size: 1.25rem; margin: 0 0 .5rem; }
+.theme p { color: $muted; margin: 0; }
+
+// ---------- cards ----------
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 26px; margin-top: 2rem; }
+.card-proj { background: #fff; border: 1px solid $line; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
+.card-proj > img, .card-proj .pair img { width: 100%; height: 260px; object-fit: cover; display: block; }
+.card-proj .pair { display: grid; grid-template-columns: 1fr 1fr; background: #fff; }
+.card-proj .body { padding: 24px 26px 26px; display: flex; flex-direction: column; gap: .6rem; flex: 1; }
+.card-proj h3 { font-size: 1.4rem; margin: 0; }
+.card-proj p { margin: 0; color: $muted; }
+.card-proj .links { display: flex; flex-wrap: wrap; gap: .25rem 1.4rem; margin-top: auto; padding-top: .5rem; }
+.card-proj .links a { font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; }
+
+// ---------- recruiting callout ----------
+.callout-join { background: $band-dark; color: #fff; border-radius: 14px; padding: 40px; display: flex; flex-wrap: wrap; gap: 28px; align-items: center; }
+.callout-join img { width: 104px; height: 104px; flex: 0 0 auto; }
+.callout-join .txt { flex: 1 1 320px; min-width: 0; }
+.callout-join h2 { color: #fff; font-size: 1.7rem; margin: 0 0 .6rem; }
+.callout-join p { color: #E2E0D6; margin: 0; }
+.callout-join .btn-olive { background: #fff; color: $ink !important; &:hover { background: #E9E7DD; } }
+
+// ---------- publications ----------
+.pub-list { list-style: none; padding: 0; margin: 0; }
+.pub-list li { padding: 1.1rem 0; border-bottom: 1px solid #E8E6DD; }
+.pub-list li:last-child { border-bottom: 0; }
+.pub-meta { font-family: "Montserrat", sans-serif; font-size: .78rem; font-weight: 600; color: $grey; margin: 0 0 .25rem; }
+.pub-title { font-weight: 600; font-size: 1.08rem; line-height: 1.35; margin: 0 0 .25rem; }
+.pub-authors { color: $muted; font-size: .95rem; margin: 0 0 .2rem; }
+.pub-list a { font-size: .9rem; font-weight: 600; word-break: break-word; }
+
+// ---------- people ----------
+.person { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; }
+.person > img { width: 260px; max-width: 100%; border-radius: 10px; }
+.person .about { flex: 1 1 380px; min-width: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+.chips a { display: inline-flex; align-items: center; min-height: 40px; padding: .35rem .85rem; border: 1px solid $line; border-radius: 999px; background: #fff; font-weight: 600; font-size: .9rem; text-decoration: none; }
+.slot { border: 1px dashed #C9C6B9; border-radius: 10px; padding: 24px; background: #fff; }
+
+// ---------- figures in inner pages ----------
+.wide-img { border-radius: 10px; width: 100%; object-fit: cover; }
+.figure-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 1.25rem 0; }
+.figure-row img { width: 100%; height: 230px; object-fit: cover; border-radius: 8px; }
+.project { padding: 2.25rem 0; border-top: 1px solid $line; }
+.project:first-of-type { border-top: 0; }
+.tag { display: inline-block; font-family: "Montserrat", sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $olive-dark; background: #ECEAE0; border-radius: 4px; padding: 3px 8px; margin-right: 6px; }
+.panel-tabset .nav-link { font-weight: 600; }
+
+// ---------- fixes ----------
+h2 { border-bottom: 0 !important; padding-bottom: 0 !important; }
+.pub-list ul { list-style: none; padding-left: 0; margin: 0; }
+.nav-footer { flex-wrap: wrap; gap: .5rem 1.5rem; }
+.nav-footer .footer-items { flex-wrap: wrap; justify-content: center; gap: 0 .25rem; }
+.nav-footer-left, .nav-footer-right, .nav-footer-center { min-width: 0; }
+@media (max-width: 768px) { .nav-footer { flex-direction: column; } .nav-footer-left { text-align: center; } }
+#title-block-header .description { display: none; }
