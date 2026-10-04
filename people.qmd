@@ -29,7 +29,7 @@ image: images/headshot.jpg
 
 ## Students
 
-LASO Lab is growing. Graduate and undergraduate members will be listed here.
+The lab is growing. Graduate and undergraduate members will be listed here.
 
 ::: {.slot}
 **Could this be you?** We are recruiting an M.A. student for Fall 2027 and welcome undergraduates year-round. [See openings →](join.qmd)

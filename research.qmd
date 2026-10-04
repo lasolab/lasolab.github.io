@@ -5,7 +5,7 @@ description: "LASO Lab research: the Galapagos Agroecological Observatory, the M
 image: images/map-sharing-galapagos.jpg
 ---
 
-Our work makes visible what maps usually leave out — farm species, farmers' perspectives, the barriers disabled people face. Putting something on the map acknowledges that it exists, a necessary first step toward recognition and agency where dominant or competing views prevail. Grounded in political ecology and human–environment geography, we study how socio-ecological conflicts take shape in space, and how participatory, place-based data can support fairer environmental decisions. We work across disciplines, institutions and communities, and we try to make what we learn useful and readable for the people it concerns.
+What isn't on the map is easy to ignore. Our work documents what official maps tend to miss — biodiversity on working farms, farmers' knowledge of their land, the barriers disabled people navigate every day — so that it can be recognized and weighed in decisions alongside the views that usually dominate. Grounded in political ecology and human–environment geography, we study how socio-ecological conflicts take shape in space, and how participatory, place-based data can support fairer environmental decisions. We work across disciplines, institutions and communities, and we try to make what we learn useful and readable for the people it concerns.
 
 ::: {.project}
 ## Galapagos Agroecological Observatory {#galapagos-agroecological-observatory}

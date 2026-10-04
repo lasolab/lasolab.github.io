@@ -5,7 +5,7 @@ description: "Funded M.A. position in Environmental Studies at Western Washingto
 image: images/drone-launch.jpg
 ---
 
-LASO Lab welcomes students who want to use maps, satellites, drones and field data to work on real problems with real partners. We care more about curiosity, follow-through and respect for the communities we work with than about any particular software — the technical skills we can teach.
+We welcome students who want to use maps, satellites, drones and field data to work on real problems with real partners. We care more about curiosity, follow-through and respect for the communities we work with than about any particular software — the technical skills we can teach.
 
 ## M.A. student, Fall 2027 {#ma}
 
@@ -18,7 +18,9 @@ Funded M.A. in Environmental Studies · Western Washington University
 
 Dr. Francisco Laso is looking for a master's student to join the [Environmental Studies (ENVS) M.A. program](https://cenv.wwu.edu/envs/ma-environmental-studies) in Fall 2027.
 
-LASO Lab brings into view what official maps tend to miss — the species living on farms, farmers' own knowledge, the barriers disabled people meet every day. Putting something on the map acknowledges that it exists: a first step toward recognition, and toward people exercising their agency where other views dominate. We do this with the people concerned, on their terms. You can join one of two ongoing tracks — or bring your own question.
+Our work starts from a simple idea: what isn't on the map is easy to ignore. In the lab we use geographic tools to document what official maps tend to miss — biodiversity on working farms, farmers' knowledge of their land, the barriers disabled people navigate every day — so that it can be recognized and weighed in decisions alongside the views that usually dominate. We do this together with the people whose places and experiences we map, and on their terms.
+
+You can join one of two ongoing tracks, or bring a question of your own.
 
 #### Track A — Galápagos and Ecuador
 
@@ -79,7 +81,9 @@ Maestría (M.A.) financiada en Estudios Ambientales · Western Washington Univer
 
 El Dr. Francisco Laso busca un/a estudiante de maestría para unirse al [programa de M.A. en Estudios Ambientales (ENVS)](https://cenv.wwu.edu/envs/ma-environmental-studies) en otoño de 2027.
 
-LASO Lab hace visible lo que los mapas oficiales suelen pasar por alto: las especies que viven en las fincas, el conocimiento de los propios agricultores, las barreras que enfrentan a diario las personas con discapacidad. Poner algo en el mapa es reconocer que existe: un primer paso hacia su reconocimiento, y hacia que las personas ejerzan su agencia frente a visiones dominantes. Lo hacemos con las personas involucradas, en sus propios términos. Puedes sumarte a una de dos líneas en curso — o traer tu propia pregunta.
+Nuestro trabajo parte de una idea sencilla: lo que no aparece en el mapa es fácil de ignorar. En el laboratorio usamos herramientas geográficas para documentar lo que los mapas oficiales suelen pasar por alto — la biodiversidad en las fincas, el conocimiento que los agricultores tienen de su tierra, las barreras que las personas con discapacidad enfrentan cada día — para que pueda ser reconocido y tomado en cuenta en las decisiones, junto a las visiones que suelen predominar. Lo hacemos junto con las personas cuyos lugares y experiencias mapeamos, y en sus propios términos.
+
+Puedes sumarte a una de dos líneas en curso o proponer tu propia pregunta.
 
 #### Línea A — Galápagos y Ecuador
 

@@ -19,7 +19,7 @@ Critical cartography, visual hierarchy, symbolization, typography and colour for
 Capstone, team-based GIS projects with R-based workflows, map digitization and field data collection — with a recurring focus on campus and community accessibility.
 
 **ESCI 442 / 542 — Introduction to Remote Sensing**\
-Physical principles of electromagnetic sensing, raster analysis and cloud computing in Google Earth Engine: spectral indices, machine-learning classification and time-series change detection.
+Physical principles of electromagnetic sensing, raster analysis and cloud computing in Google Earth Engine: spectral indices, machine-learning classification and time-series change detection. [Open lab materials →](https://lasolab.github.io/ESCI-442/)
 
 **ENVS 401 / 504 — Introduction to Research Methods**\
 Qualitative and quantitative research design, proposal writing and statistics in R; graduate students integrate mixed methods.
@@ -38,4 +38,4 @@ Extractive industries through social, ecological, economic and political lenses,
 
 ![](images/drone-workshop.jpg){.wide-img fig-alt="Collage of a drone-mapping workshop with Ministry of Agriculture technicians in Galápagos farm fields" style="max-height:440px"}
 
-Hands-on workshops for the Galápagos Ministry of Agriculture on open-source GIS (2023) and drone mapping — flight planning, ground control and photogrammetry (2024); GIS workshops for environmental educators and youth in the Galápagos; and guest lectures on drones in qualitative research.
+Hands-on workshops for the Galápagos Ministry of Agriculture on open-source GIS (2023) and drone mapping — flight planning, ground control and photogrammetry (2024; see the Spanish-language guide [*Uso de drones para la agricultura en Galápagos*](https://docs.google.com/document/d/14R4iC6Rb24PzloL-Fryc_YYRKCfJrQ-RTue-xIYGFlE/edit?usp=sharing)); GIS workshops for environmental educators and youth in the Galápagos; and guest lectures on drones in qualitative research.
